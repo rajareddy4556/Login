@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+.b1{
+    background-color: rgb(242, 244, 237);
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.f1{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    animation: rotate-border 4s linear infinite;
+}
+.lis1{
+    position: absolute;
+    display: flex;
+    margin-right: 200px;
+    margin-bottom: 500px;
+}
+.lis1 button{
+   font-size: larger;
+   margin-left: 100px;
+   background-color: transparent;
+   border: 0;
+}
+.lis1 button:hover{
+    border-bottom: 3px solid red;
+    animation: rotate-border 2s linear infinite;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items1{
+    display: flex;
+    flex-direction: column;
+}
+.items1 input{
+    padding: 10px;
+    border: 0;
+    outline: none;
+    border-bottom:3px solid coral;
+    animation: rotate-border 4s ease-in-out infinite;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items2{
+    display: flex;
+    flex-direction: column;
+}
+.item input{
+    padding: 15px;
+    border: 0;
+    border-bottom:3px solid coral;
+    animation: rotate-border 4s ease-in-out infinite;
+}
+.f2{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    animation: rotate-border 4s linear infinite;
+}
+.items2 input{
+    padding: 10px;
+    outline: none;
+}
+
+@keyframes rotate-border {
+    0% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: yellow; }
+    100% { border-color: red; }
+  }
