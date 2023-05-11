@@ -14,12 +14,14 @@
     height: 400px;
     width: 400px;
     border: 3px solid black;
+    border-radius: 10%;
     animation: rotate-border 4s linear infinite;
 }
 .lis1{
     position: absolute;
     display: flex;
     margin-right: 200px;
+    margin-left: 100px;
     margin-bottom: 500px;
 }
 .lis1 button{
@@ -27,10 +29,6 @@
    margin-left: 100px;
    background-color: transparent;
    border: 0;
-}
-.lis1 button:hover{
-    border-bottom: 3px solid red;
-    animation: rotate-border 2s linear infinite;
 }
 .items{
     display: flex;
@@ -61,21 +59,23 @@
     padding: 15px;
     border: 0;
     border-bottom:3px solid coral;
-    animation: rotate-border 4s ease-in-out infinite;
+    animation: rotate-border 3s ease-in-out infinite;
 }
 .f2{
     height: 400px;
     width: 400px;
     border: 3px solid black;
-    animation: rotate-border 4s linear infinite;
+    border-radius: 10%;
+    animation: rotate-border 3s linear infinite;
 }
 .items2 input{
     padding: 10px;
     outline: none;
+    width: 100%;
 }
 
 @keyframes rotate-border {
-    0% { border-color: red; }
+    20% { border-color: red; }
     25% { border-color: blue; }
     50% { border-color: green; }
     75% { border-color: yellow; }
