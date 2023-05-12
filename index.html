@@ -10,19 +10,20 @@
 <body>
     <header class="b1">
         <div class="lis1">
+            <button onclick="fun3()" id="b3" style="cursor: pointer;">Home</button>
             <button onclick="fun()" id="b1" style="cursor: pointer;">Login</button>
-            <button onclick="fun1()" id="b2" style="cursor: pointer;">Signup</button>
+            <button onclick="fun1()" id="b2" style="cursor: pointer;">SignUp</button>
         </div>
         <div id="hello">
         <div class="f1">
             <div class="items">
                 <form class="items1" style="margin-top: 50px;">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" required>
+                    <input type="email" name="email" id="e1" required>
                     <label for="password">Password:</label>
-                    <input type="password" name="password" required>
-                    <input type="submit" width="30%" style="margin-top: 30px;border: 3px solid black;cursor: pointer;">
-                    <input type="button" value="Signup" style="border: 3px solid rgb(7, 1, 1);margin-left: 200px;margin-top: 100px;cursor: pointer;"onclick="fun1()">
+                    <input type="password" name="password" id="p1" required>
+                    <input type="button" value="Login" width="30%" style="margin-top: 30px;border: 3px solid rgb(255, 255, 255);cursor: pointer;color: azure;" onclick="fun2()">
+                    <input type="button" value="Signup" style="border: 3px solid rgb(250, 250, 250);margin-left: 200px;margin-top: 100px;cursor: pointer;color: azure;"onclick="fun1()">
                 </form>
             </div>
         </div>
@@ -39,7 +40,7 @@
                     <input type="email" name="email" required>
                     <label for="password">Password:</label>
                     <input type="password" name="password" required>
-                    <input type="submit" width="30%" style="margin-top: 30px;border: 3px solid black;cursor: pointer;margin-left: 10px;">
+                    <input type="button" value="Signup" width="30%" style="margin-top: 30px;border: 3px solid rgb(255, 251, 251);cursor: pointer;margin-left: 10px;color: azure;">
     
                 </form>
             </div>
