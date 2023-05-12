@@ -10,7 +10,7 @@
     align-items: center;
     position: relative;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg);
-    background-size: cover;
+    background-size: 100vh 100vw;
 }
 .f1{
     height: 400px;
